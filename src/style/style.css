@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "MJXTEX";
+    src: url("../assets/fonts/MathJax_Main-Regular.woff") format("woff");
+}
+:root {
+    --text-color: red;
+}
+* {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    color: var(--text-color);
+    font-size: 22px;
+    font-family: "MJXTEX";
+    line-height: 1.2em;
+}
+
+a {
+    text-decoration: line-through;
+    color: yellow;
+}

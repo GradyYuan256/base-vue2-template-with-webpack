@@ -1,0 +1,7 @@
+h1 {
+    color: $fontColor;
+    transform: translateX(100px);
+    &:hover {
+        color: yellowgreen;
+    }
+}
